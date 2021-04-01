@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chow Chow Dog</title>
+        <link rel="stylesheet" href="chowchow.css">
+    </head>
+    <body>
+        <a href="#" class="myButton" type="button" onclick="alert('There is nothing about me')">About me</a>
+        <h1>Chow Chow Dog</h1>
+        <table>
+            <tr>
+                <th><button id='Aboutthe' class="button button1">About the Chowchow Dog</button></th>
+                <th><button id="Origin" class="button button1">Origin and History</button></th>
+                <th><button id="Diet" class="button button1">Diet</button></th>
+                <th><button id="Cost" class="button button1">Cost</button></th>
+            </tr>
+        </table>
+        <img id=dogimg class="deletable" src="https://dogtime.com/assets/uploads/gallery/chow-chow-dog-breed-pictures/3-fullbody.jpg" alt="ok">
+        <div id=Info class="deletable">
+            <h2>Chow Chow Dogs are one of the most ancient dogs in the world and they are also very interesting dogs since they have an agresive temperament.
+                As you go through my website you will learn many things about this dog.
+            </h2>
+        </div>
+        <div id = "AboutTheChow" class="deletable AbouttheInfo">
+            <h3>About the Chow Chow dog</h3>
+            <p>The distinctive-looking Chow Chow dog breed has a proud, independent spirit that some describe as catlike. They can be aloof — if you’re looking for a cuddle buddy, this probably isn’t the best breed for you — and downright suspicious of strangers. But for the right person, they can be a fiercely loyal companion</p>
+            <img fid='chowchowimg' src="https://2.bp.blogspot.com/-LlXapA6oC-o/U_Dwg1XL06I/AAAAAAAAClI/y4fm8pFxMG4/s1600/chow-chow.jpg" alt="Chow Chow" height="341.5" width="512"> 
+        </div>
+
+        <div id = "origin" class="deletable Origin0">
+            <h3>Origin and history</h3>
+            <h4>Breef origin</h4>
+            <p>A breed of dog that differs from most others in having a blue-black tongue. The breed originated in China and is known to date to the Han dynasty (206 BC–AD 220); it is believed by some to be one of the oldest of all breeds and is genetically very close to the wolf. The name chow chow is apparently derived from an English term used in the 19th century to refer to cargo from the Orient.</p>
+            <img id="chinamap" src="https://i1.wp.com/www.viewofchina.com/wp-content/uploads/2019/04/map-ming-canada-cuba.jpg?resize=860%2C541&ssl=1" alt="China" width="286" height="180">    
+                <div id="historychow">
+                    <h4>History of the Chow Chow</h4>
+                    <p>The Chow Chow as it is known today, is represented in the pottery and sculptures of the Han Chinese Dynasty (206 AC to 22 AC); other sources indicate that it was still a much more old race and can have come originally from the Arctic Circle, then migrated into Mongolia, Siberia, and China.</p>
+                    <p>With the ending of the Tang dynasty came an increasing national poverty and, except within the monasteries, selective breeding ceased.  The original pure Chow breed only stayed in the houses of the richest merchants, some noble, and in the monasteries.</p>
+                </div>
+            <img id=chowimgold src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Animal-Photo-Dog-ChowChow-780x652.jpg" alt="oldchow">
+        </div>
+        <div id="diet" class="deletable Diet0">
+            <h3>Diet of the Chow Chow</h3>
+            <p>Chow Chows are very chubby dogs, they eat a lot. It is recommended to give only small amounts of meat, otherwise if you give the dog big amounts of meat it would cause damage to the skin and coat</p>
+            <h4>Take care with the food</h4>
+            <p>Chow Chows are often categorized as overweight dogs. They’re also prone to diabetes since they’re not the most active. Therefore, be mindful not to overfeed pups, avoid giving them table scraps and implement proper exercise. Whether you opt for dry or wet dog food, pay attention to your Chow’s skin for any signs of allergy or irritation, since certain foods can trigger allergic reactions or digestive problems. If you have any particular health concerns about your dog’s diet and nutrition – including weight, dietary restrictions, or even deciphering what ‘human’ foods are safe to feed your Chow – speak with your veterinarian. They can provide you with professional advice and recommendations on the nutrients your Chow Chow needs, whether he’s a pup or a senior dog.</p>
+            <img src="https://thehappypuppysite.com/wp-content/uploads/2019/02/Feeding-A-Chow-Chow-Puppy-long.jpg" alt="foodchow" width="600" height="325">
+        </div>
+        <div id="cost" class="deletable Cost0">
+            <h3>Cost of a Chow Chow</h3>
+            <p>The cost of a Chow Chow. Chow Chows are very expensive dogs not only because of the price to buy one but because the food they consume and cleaning the dog among other things.</p>
+            <h4>How much when you buy the dog?</h4>
+            <p>Most of the Chow Chow breeders start up of puppies from $800 USD but this depends a lot of the purity if the race, different bloodlines etc. With this the price could go up to $3000 USD</p> 
+            <h4>Other Expenses</h4>     
+            <p>Owning a dog like a Chow Chow its expensive and takes effort, the total expense when you buy your Chow for the first time it's around $1100 USD and including a monthly cost of $350 USD for basic expenses like food without including training, traeatments, dog care etc.</p> 
+        </div>
+    </body>
+    <body>
+        <h2>Sources and more info</h2>
+        <p><a href="https://dogtime.com/dog-breeds/chow-chow#/slide/1">DOGTIME.com</a></p>
+        <p> <a href="https://en.wikipedia.org/wiki/Chow_Chow">WIKIPEDIA.org</a></p>
+    </body>
+        <button id="dontclick">DON'T CLICK THIS BUTTON</button>
+        <div class="deletable Video0">
+            <iframe width="966" height="543" src="https://www.youtube.com/embed/HgcotMu7tk0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+            
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+
+    alert("Warning, you just accesed the coolest website in the world")
+    
+    function showVideo(){
+        $(".Video0").show()
+    }
+
+    function showInfo(){
+        $("#Info").show()
+    }
+
+    function showChow(){
+        $("#dogimg").show()
+    }
+    
+    function hideAll(){
+        $(".deletable").hide()
+    }
+
+    function showAbout(){
+        $(".deletable").hide()
+        $('.AbouttheInfo').show()
+    }
+
+    function showOrigin(){
+        $(".deletable").hide()
+        $(".Origin0").show()
+    }
+
+    function showDiet(){
+        $(".deletable").hide()
+        $(".Diet0").show()
+    }
+
+    function showCost(){
+        $(".deletable").hide()
+        $(".Cost0").show()
+    }
+
+    hideAll()
+    showInfo()
+    showChow()
+    $("#Aboutthe").on('click', showAbout)
+    $("#Origin").on('click', showOrigin)
+    $("#Diet").on('click', showDiet)
+    $("#Cost").on('click', showCost)
+
+    $("#dontclick").on('click', showVideo)
+
+</script>
+</html>
+
+
+
